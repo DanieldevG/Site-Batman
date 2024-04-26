@@ -1,0 +1,97 @@
+.kdam-thmor pro-regular {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.começo{
+    background-image: url('https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3');
+    background-position: 60% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#email, #password {
+    height: 25px;
+    position: relative;
+    left: 550px;
+    top: 400px;
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    margin-top: 25px;
+    background-color: #000;
+}
+
+
+#Button{
+    width: 90px;
+    height: 25px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    top: 400px;
+    position: relative;
+    left: 550px;
+}
+
+
+#Button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+label{
+    color:#fff;
+    position: relative;
+    left: 550px;
+    top: 410px
+}
+
+@media(max-width: 768px){
+    .começo{
+       background-position: 45% 50%;
+    }
+
+    #email{
+        height: 20px;
+        position: relative;
+        left: 60px;
+        color: #fff;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        margin-top: 20px;
+    }
+
+    #password{
+        height: 20px;
+        position: relative;
+        left: 60px;
+        color: #fff;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        margin-top: 20px;
+    }
+
+    label{
+        color:#fff;
+        position: relative;
+        left: 60px;
+        top: 410px;
+    }
+
+    #Button{
+        left: 60px;
+        
+    }
+
+}   

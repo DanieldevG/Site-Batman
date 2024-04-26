@@ -1,0 +1,41 @@
+.kdam-thmor pro-regular {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover{
+    color: #D21617;
+}
+
+#logo{
+    width: 110px;
+    height: cover;
+}
